@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/BluewardSentinel.Api/BluewardSentinel.Api.csproj" />
+    <Project Path="src/BluewardSentinel.Core/BluewardSentinel.Core.csproj" />
+    <Project Path="src/BluewardSentinel.Infrastructure/BluewardSentinel.Infrastructure.csproj" />
+  </Folder>
+</Solution>
