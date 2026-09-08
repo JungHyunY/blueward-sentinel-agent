@@ -3,7 +3,7 @@ export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
-    "../blueward-design-system/src/**/*.{js,ts,jsx,tsx}",
+    "./node_modules/blueward-design-system/dist/**/*.{js,cjs}",
     "../blueward-design-system/dist/**/*.{js,cjs}"
   ],
   darkMode: 'class',

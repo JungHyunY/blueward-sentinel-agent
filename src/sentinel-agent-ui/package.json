@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "blueward-design-system": "file:../../../blueward-design-system",
+    "blueward-design-system": "^1.0.2",
     "clsx": "^2.1.1",
     "lucide-react": "^0.475.0",
     "react": "^19.0.0",

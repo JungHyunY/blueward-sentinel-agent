@@ -1,0 +1,11 @@
+{
+  "framework": "vite",
+  "buildCommand": "cd src/sentinel-agent-ui && npm run build",
+  "outputDirectory": "src/sentinel-agent-ui/dist",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
