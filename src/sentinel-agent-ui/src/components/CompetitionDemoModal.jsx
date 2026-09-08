@@ -74,7 +74,7 @@ export default function CompetitionDemoModal({
       footer={
         <div className="flex items-center justify-between w-full">
           <span className="text-[11px] text-slate-500 font-mono">
-            Blueward Design System (BDS) & Multi-Agent AIOps
+            Autonomous Multi-Agent AIOps Platform
           </span>
           <div className="flex items-center gap-2">
             <BdsButton variant="secondary" size="sm" onClick={onClose}>

@@ -10,7 +10,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        bds: {
+        brand: {
           primary: '#2563EB',
           'primary-hover': '#1D4ED8',
           'primary-light': '#EFF6FF',

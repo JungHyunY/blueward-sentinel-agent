@@ -29,7 +29,7 @@ export default function Navbar({
               </BdsBadge>
             </div>
             <p className="text-[11px] text-slate-500 dark:text-slate-400 font-medium">
-              Blueward Design System (BDS) 기반 자율 AIOps 모니터링 & 자가 치유 에이전트
+              차세대 엔터프라이즈 자율 AIOps 모니터링 & 자가 치유 플랫폼
             </p>
           </div>
         </div>

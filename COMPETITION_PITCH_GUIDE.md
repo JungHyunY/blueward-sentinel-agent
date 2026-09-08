@@ -1,7 +1,7 @@
 # 🏆 Blueward Sentinel AI Agent - 사내 AI 에이전트 경진대회 발표 가이드
 
 > **프로젝트명:** Blueward Sentinel AI Agent  
-> **부제:** Blueward Design System(BDS) 기반의 엔터프라이즈 Multi-Agent AIOps 자율 관제 & 자가 치유 플랫폼  
+> **부제:** 엔터프라이즈 Multi-Agent AIOps 자율 관제 & 자가 치유 플랫폼  
 > **구동 주소:** `http://localhost:5060`
 
 ---
@@ -14,7 +14,7 @@
 
 ### 🚀 Blueward Sentinel AI Agent의 솔루션
 * 사람이 개입하기 전에 **4단계 전문 Multi-Agent**가 협업하여 **38초 만에 이상 탐지, 원인 분석, 소스코드 패치 합성, 무중단 자율 복구**를 완결합니다.
-* 사내 표준 **Blueward Design System (BDS)**을 100% 적용하여 엔터프라이즈 수준의 높은 시각적 완성도와 신뢰성을 제공합니다.
+* 사내 표준 디자인 시스템을 100% 적용하여 엔터프라이즈 수준의 높은 시각적 완성도와 신뢰성을 제공합니다.
 
 ---
 
@@ -40,20 +40,20 @@ flowchart LR
 
 ---
 
-## 3. Blueward Design System (BDS) 적용 내역
+## 3. 엔터프라이즈 UI 컴포넌트 적용 내역
 
-사내 공식 컴포넌트 라이브러리인 **BDS(Blueward Design System)**의 엔터프라이즈 컴포넌트를 전면에 배치하였습니다.
+사내 표준 컴포넌트 라이브러리의 엔터프라이즈 컴포넌트를 전면에 배치하여 운영 가독성을 극대화하였습니다.
 
-| BDS 컴포넌트 | 적용 영역 및 역할 |
+| UI 컴포넌트 | 적용 영역 및 역할 |
 | :--- | :--- |
-| **`BdsStatCard`** | 총 수집량, 이상 탐지 수, 자율 복구율(98.4%), 평균 MTTR(38.2초) 등 4대 핵심 KPI 메트릭 및 스파크라인 시각화 |
-| **`BdsProcessTimeline`** | 4단계 Multi-Agent 자율 해결 프로세스를 SAP Fiori 스타일의 타임라인으로 실시간 진행 표시 |
-| **`BdsActivityFeed`** | Agent의 Chain-of-Thought(내부 생각 및 추론 단계) 실시간 스트림 피드 |
-| **`BdsDataTable`** | 실시간 인시던트 클러스터 데이터 그리드 (심각도 배지, 정렬, 빠른 액션) |
-| **`BdsObjectHeader`** | 인시던트 상세 모달 상단의 핵심 메타데이터, 신뢰도 KPI, 상태 배지 헤더 |
-| **`BdsMessageStrip`** | P0 긴급 장애 발생 시 화면 상단 실시간 경보 배너 |
-| **`BdsModal` / `BdsButton`** | 인시던트 심층 진단 창 및 사내 경진대회 시연 컨트롤러 팝업 |
-| **`BdsThemeProvider`** | Blueward 기업 표준 Cobalt Blue (`#2563EB`) 및 다크/라이트 듀얼 테마 런타임 제어 |
+| **`StatCard`** | 총 수집량, 이상 탐지 수, 자율 복구율(98.4%), 평균 MTTR(38.2초) 등 4대 핵심 KPI 메트릭 및 스파크라인 시각화 |
+| **`ProcessTimeline`** | 4단계 Multi-Agent 자율 해결 프로세스를 타임라인으로 실시간 진행 표시 |
+| **`ActivityFeed`** | Agent의 Chain-of-Thought(내부 생각 및 추론 단계) 실시간 스트림 피드 |
+| **`DataTable`** | 실시간 인시던트 클러스터 데이터 그리드 (심각도 배지, 정렬, 빠른 액션) |
+| **`ObjectHeader`** | 인시던트 상세 모달 상단의 핵심 메타데이터, 신뢰도 KPI, 상태 배지 헤더 |
+| **`MessageStrip`** | P0 긴급 장애 발생 시 화면 상단 실시간 경보 배너 |
+| **`Modal` / `Button`** | 인시던트 심층 진단 창 및 사내 경진대회 시연 컨트롤러 팝업 |
+| **`ThemeProvider`** | 기업 표준 Cobalt Blue (`#2563EB`) 및 다크/라이트 듀얼 테마 런타임 제어 |
 
 ---
 
@@ -62,7 +62,7 @@ flowchart LR
 ### 🎙️ [0:00 ~ 0:45] 문제 제기 및 제품 소개
 > "안녕하십니까, 사내 AI 에이전트 경진대회에 출품한 **Blueward Sentinel AI Agent**입니다.  
 > 지금까지 우리의 시스템 관제는 장애가 발생하면 개발자에게 알림을 보내는 '수동적 알림'에 머물렀습니다.  
-> Sentinel AI Agent는 사내 표준 **Blueward Design System(BDS)**을 기반으로 구축된 **AIOps 자율 치유 에이전트**로, 사람이 개입하기 전 38초 만에 원인을 찾고 소스코드 패치까지 완성합니다."
+> Sentinel AI Agent는 엔터프라이즈 운영 환경에 최적화된 **AIOps 자율 치유 에이전트**로, 사람이 개입하기 전 38초 만에 원인을 찾고 소스코드 패치까지 완성합니다."
 
 ### 🎙️ [0:45 ~ 1:45] 1-클릭 실시간 라이브 시연
 > *(화면 우측 상단의 `[🚀 사내 경진대회 라이브 시연]` 버튼 클릭)*  
@@ -74,7 +74,7 @@ flowchart LR
 ### 🎙️ [1:45 ~ 2:30] 자율 복구 결과 확인 및 Git Patch
 > "보시는 바와 같이 **11.5초** 만에 상태가 '자가 치유 완료(Resolved)'로 갱신되었습니다.  
 > *(인시던트 상세 클릭)*  
-> **BDS Object Header**와 진단 결과를 보시면, 근본 원인이 명확히 설명되어 있을 뿐 아니라,  
+> **인시던트 상세 헤더**와 진단 결과를 보시면, 근본 원인이 명확히 설명되어 있을 뿐 아니라,  
 > 개발자가 즉시 적용할 수 있는 **Unified Git Diff 패치**가 완성되어 있습니다.  
 > `.patch 다운로드` 버튼으로 즉시 소스코드에 반영할 수 있습니다."
 

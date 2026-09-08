@@ -27,7 +27,7 @@ export default function AgentCommandCenter({
         </BdsMessageStrip>
       )}
 
-      {/* 4 BDS StatCards */}
+      {/* 4 Key StatCards */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
         <BdsStatCard
           title="총 수집 텔레메트리"

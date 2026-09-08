@@ -1,10 +1,10 @@
 # Blueward Sentinel AI Agent (Competition Edition)
 
-사내 AI 에이전트 경진대회 출품작 - **Blueward Design System (BDS)** 기반 엔터프라이즈 AIOps 자율 관제 & 자가 치유 플랫폼.
+사내 AI 에이전트 경진대회 출품작 - 엔터프라이즈 AIOps 자율 관제 & 자가 치유 플랫폼.
 
 ## 핵심 특징
 - **포트:** `http://localhost:5060`
-- **디자인 시스템:** [Blueward Design System (BDS)](../blueward-design-system) 100% 네이티브 적용
+- **UI/UX:** 표준 엔터프라이즈 디자인 시스템 네이티브 적용
 - **Multi-Agent AIOps:** Triage ➡️ RCA ➡️ Self-Healing ➡️ Audit 4단계 협업 파이프라인
 - **MTTR:** 38.2초 (기존 수동 SRE 대비 98.6% 단축)
 - **라이브 시연:** 1-클릭 장애 주입 및 자가 치유 시뮬레이터 내장

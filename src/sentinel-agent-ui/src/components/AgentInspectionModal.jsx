@@ -100,7 +100,7 @@ export default function AgentInspectionModal({
       }
     >
       <div className="space-y-6">
-        {/* BDS Object Header */}
+        {/* Object Header */}
         <BdsObjectHeader
           title={incident.title}
           subtitle={`오류 핑거프린트: ${incident.fingerprint}`}

@@ -74,7 +74,7 @@ export default function App() {
   const tabs = [
     { id: 'incidents', label: '자율 인시던트 관제 (Active Incidents)', count: incidents.length },
     { id: 'timeline', label: '4단계 Multi-Agent 자율 파이프라인', count: null },
-    { id: 'architecture', label: 'BDS & Agent 아키텍처 개요', count: null }
+    { id: 'architecture', label: 'AIOps 에이전트 아키텍처', count: null }
   ];
 
   return (
@@ -164,13 +164,13 @@ export default function App() {
 
                 <div className="p-5 rounded-2xl bg-indigo-50/50 dark:bg-indigo-950/40 border border-indigo-200 dark:border-indigo-800 space-y-2">
                   <span className="text-xs font-bold text-indigo-600 dark:text-indigo-400 font-mono">
-                    02. BDS 엔터프라이즈 UX
+                    02. 엔터프라이즈 통합 UX
                   </span>
                   <h4 className="text-sm font-bold text-slate-900 dark:text-white">
-                    Blueward Design System 완벽 적용
+                    직관적인 운영 모니터링 UI/UX
                   </h4>
                   <p className="text-xs text-slate-600 dark:text-slate-400 leading-relaxed">
-                    StatCard, DataTable, ProcessTimeline, ActivityFeed, ObjectHeader 등 BDS 공식 컴포넌트 스위트로 최상의 엔터프라이즈 가독성을 보장합니다.
+                    StatCard, DataTable, ProcessTimeline, ActivityFeed, ObjectHeader 등 표준 엔터프라이즈 컴포넌트로 최상의 가독성과 운영 직관성을 보장합니다.
                   </p>
                 </div>
 
