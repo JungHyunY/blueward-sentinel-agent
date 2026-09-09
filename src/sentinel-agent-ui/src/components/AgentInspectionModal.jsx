@@ -202,7 +202,7 @@ export default function AgentInspectionModal({
                 </div>
                 <div>
                   <h5 className="text-xs font-bold text-slate-800 dark:text-slate-200">
-                    Yoonikon RAG 벡터 지식 베이스 영구 보관
+                    사내 RAG 벡터 지식 베이스 영구 보관
                   </h5>
                   <p className="text-[11px] text-slate-500">
                     장애 원인 분석 및 코드 패치 리포트를 RAG 벡터 저장소에 축적합니다.

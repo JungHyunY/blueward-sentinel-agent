@@ -60,7 +60,7 @@ public class WebhookService : IWebhookService
 
         var payload = new
         {
-            text = $"🚨 [Yoonikon Sentinel 경보] {eventType.ToUpperInvariant()}: {incident.Title}",
+            text = $"🚨 [Blueward Sentinel 경보] {eventType.ToUpperInvariant()}: {incident.Title}",
             attachments = new[]
             {
                 new
@@ -75,7 +75,7 @@ public class WebhookService : IWebhookService
                         new { title = "태그", value = string.Join(", ", incident.Tags.Select(t => $"#{t}")), @short = true },
                         new { title = "오류 요약", value = incident.SampleMessage ?? "상세 메시지 없음", @short = false }
                     },
-                    footer = "Yoonikon Sentinel AIOps Real-time Alert",
+                    footer = "Blueward Sentinel AI Agent Real-time Alert",
                     ts = DateTimeOffset.UtcNow.ToUnixTimeSeconds()
                 }
             }

@@ -355,7 +355,7 @@ ${diagnosis?.suggestedCodeFix ? `## 제안 소스코드 수정 패치\n\`\`\`csh
 
   // Graceful fallback for demo on Vercel
   return {
-    kbName: 'Yoonikon Enterprise AIOps 지식 베이스 (Demo)',
+    kbName: '사내 엔터프라이즈 AIOps 지식 베이스 (Demo)',
     documentId: 'doc-' + Math.random().toString(36).substring(2, 8),
     chunksCount: 2,
     message: '성공적으로 색인되었습니다.'

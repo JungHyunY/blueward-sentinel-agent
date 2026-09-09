@@ -8,9 +8,9 @@
 
 * **로컬 풀스택 통합 포트:** `http://localhost:5060` (Kestrel 백엔드에서 정적 UI 번들 및 API 동시 서빙)
 * **Vercel 클라우드 데모:** [https://sentinel-agent-ui.vercel.app](https://sentinel-agent-ui.vercel.app) (백엔드 미구동 시에도 클라이언트 독립 시뮬레이션 지원)
-* **연계 서비스 포트:**
-  - Yoonikon Hub: `http://localhost:5500`
-  - Yoonikon RAG Studio: `http://localhost:5000`
+* **연계 포트:**
+  - Sentinel Agent 백엔드 API & UI: `http://localhost:5060`
+  - 사내 RAG 지식 베이스: `http://localhost:5000`
 
 ---
 
@@ -20,7 +20,7 @@
 * **운영체제:** Windows 10/11, Linux, macOS
 * **AI API 키 설정 (선택 사항):**
   - 시스템은 API 키가 없는 오프라인 환경에서도 **Zero-Key 룰베이스 추론 엔진**이 자동 작동합니다.
-  - 실제 고도화된 LLM 추론을 사용하려면 `%APPDATA%\Yoonikon\ai_config.json` 또는 환경변수에 설정합니다.
+  - 실제 고도화된 LLM 추론을 사용하려면 `%APPDATA%\Blueward\ai_config.json` 또는 환경변수에 설정합니다.
 
 ---
 
@@ -86,7 +86,7 @@ npm run dev
 
 ### 5단계: RAG 지식 베이스 영구 동기화
 * 모달 우측 상단의 **`[RAG 지식 저장]`** 버튼을 클릭합니다.
-* 이번 장애의 근본 원인과 해결 패치가 사내 **Yoonikon RAG Studio (포트 5000)**의 벡터 지식 베이스에 영구 보관되어, 향후 전사 엔지니어링 조직의 검색 및 유사 장애 재발 방지 지식으로 재활용됩니다.
+* 이번 장애의 근본 원인과 해결 패치가 사내 **엔터프라이즈 RAG 지식 베이스**에 영구 보관되어, 향후 전사 엔지니어링 조직의 검색 및 유사 장애 재발 방지 지식으로 재활용됩니다.
 
 ---
 

@@ -1,4 +1,4 @@
-﻿using BluewardSentinel.Core.Interfaces;
+using BluewardSentinel.Core.Interfaces;
 using BluewardSentinel.Core.Models;
 using Microsoft.AspNetCore.Mvc;
 
@@ -52,7 +52,7 @@ public class WebhooksController : ControllerBase
         var sampleIncident = new IncidentCluster
         {
             Id = "test-incident-alert",
-            ProjectName = "Yoonikon Sentinel Test",
+            ProjectName = "Blueward Sentinel Agent Test",
             Title = "AIOps 모바일 웹훅 연동 테스트 알림",
             Severity = "Critical",
             OccurrenceCount = 1,

@@ -29,12 +29,13 @@ public class GeminiAiDiagnosticEngine : IAiDiagnosticEngine
         var apiKey = RuntimeApiKey ?? Environment.GetEnvironmentVariable("GEMINI_API_KEY") ?? "";
         if (string.IsNullOrWhiteSpace(apiKey))
         {
-            var yoonikonConfig = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "Yoonikon", "ai_config.json");
-            if (File.Exists(yoonikonConfig))
+            var bluewardConfig = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "Blueward", "ai_config.json");
+            var sharedConfig = File.Exists(bluewardConfig) ? bluewardConfig : Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "Yoonikon", "ai_config.json");
+            if (File.Exists(sharedConfig))
             {
                 try
                 {
-                    using var doc = JsonDocument.Parse(File.ReadAllText(yoonikonConfig));
+                    using var doc = JsonDocument.Parse(File.ReadAllText(sharedConfig));
                     if (doc.RootElement.TryGetProperty("apiKey", out var k))
                     {
                         apiKey = k.GetString() ?? "";
