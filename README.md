@@ -10,4 +10,6 @@
 - **라이브 시연:** 1-클릭 장애 주입 및 자가 치유 시뮬레이터 내장
 - **RAG 연동:** 장애 진단 리포트 및 Git Diff 패치를 사내 RAG 벡터 지식 베이스에 영구 저장
 
-자세한 발표 시나리오는 [COMPETITION_PITCH_GUIDE.md](./COMPETITION_PITCH_GUIDE.md)를 참고하세요.
+## 문서 및 가이드
+- 📖 [실전 운용 매뉴얼 (OPERATION_RUNBOOK.md)](./OPERATION_RUNBOOK.md) - 로컬 구동, Vercel 데모, 4단계 자율 치유 및 패치 적용법
+- 🏆 [사내 경진대회 발표 가이드 (COMPETITION_PITCH_GUIDE.md)](./COMPETITION_PITCH_GUIDE.md) - 3분 시연 스크립트 및 심사위원 공략 전략
